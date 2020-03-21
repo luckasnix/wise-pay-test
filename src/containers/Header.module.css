@@ -1,0 +1,16 @@
+.wrapper {
+  width: 100%;
+  height: 80px;
+  padding: 0 32px;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-content: center;
+  background: #f5f6fa;
+  box-shadow: 5px 5px 10px 0px #dcdde1;
+}
+.noticeBoard {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
+}

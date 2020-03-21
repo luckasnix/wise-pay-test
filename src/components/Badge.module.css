@@ -2,6 +2,7 @@
   width: 32px;
   height: 32px;
   position: relative;
+  cursor: pointer;
 }
 .wrapper svg path {
   fill: #b2bec3;
@@ -9,9 +10,9 @@
 .anchor {
   padding: 2px 6px;
   position: absolute;
-  top: 0;
-  right: 0;
-  border-radius: 4px;
+  top: -8px;
+  right: -8px;
+  border-radius: 7px;
   background: #0984e3;
   font: 12px 'Ubuntu', sans-serif;
   color: #dfe6e9;
