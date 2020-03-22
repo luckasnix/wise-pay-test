@@ -1,4 +1,4 @@
-.wrapper {
+.search {
   width: 600px;
   height: 40px;
   padding: 0 20px;
@@ -10,7 +10,7 @@
   border-radius: 20px;
   background: #dfe6e9;
 }
-.wrapper button {
+.search button {
   width: 24px;
   height: 24px;
   justify-self: center;
@@ -19,15 +19,10 @@
   background: transparent;
   cursor: pointer;
 }
-.wrapper button svg path {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.search button svg path {
   fill: #636e72;
 }
-.wrapper input {
+.search input {
   width: 100%;
   height: 40px;
   border: none;
@@ -35,7 +30,7 @@
   font: 20px 'Ubuntu', sans-serif;
   color: #929ca0;
 }
-.wrapper input::placeholder {
+.search input::placeholder {
   color: #929ca0;
   opacity: 0.5;
 }

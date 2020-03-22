@@ -1,0 +1,16 @@
+.page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px ;
+  background: #dfe6e9;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.sideBar {
+  position: fixed;
+  top: 96px;
+  left: 16px;
+}

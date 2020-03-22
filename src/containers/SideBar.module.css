@@ -1,0 +1,25 @@
+.sideBar {
+  width: 64px;
+  height: calc(100vh - 80px - 32px);
+  padding: 16px 0;
+  display: grid;
+  justify-content: center;
+  align-content: space-between;
+  border-radius: 12px;
+  background: #f5f6fa;
+  box-shadow: 5px 5px 10px 0px #afb7b9;
+}
+.tab {
+  display: grid;
+  gap: 16px;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  justify-self: center;
+  align-self: center;
+  cursor: pointer;
+}
+.icon svg path {
+  fill: #b2bec3;
+}

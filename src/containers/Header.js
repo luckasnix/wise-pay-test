@@ -32,9 +32,13 @@ const badgeList = [
   },
 ]
 
-function Header({ className, id }) {
+function Header({ className, id, style }) {
   return (
-    <header className={[className, styles.wrapper].join(' ')} id={id}>
+    <header
+      className={[className, styles.header].join(' ')}
+      id={id}
+      style={style}
+    >
       <Search/>
       <div className={styles.noticeBoard}>
         {badgeList.map(({ icon: Icon, notifications }, idx) => {

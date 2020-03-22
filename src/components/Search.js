@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react'
 import { ReactComponent as MagnifyingGlass } from '../media/magnifying-glass.svg'
 import styles from './Search.module.css'
 
-function Search({ className, id }) {
+function Search({ className, id, style }) {
   const [query, setQuery] = useState('')
   const handleQueryChange = useCallback(evt => {
     setQuery(evt.target.value)
@@ -14,8 +14,9 @@ function Search({ className, id }) {
   }, [query, setQuery])
   return (
     <form
-      className={[className, styles.wrapper].join(' ')}
+      className={[className, styles.search].join(' ')}
       id={id}
+      style={style}
       onSubmit={handleSearch}
     >
       <button type='submit'>
