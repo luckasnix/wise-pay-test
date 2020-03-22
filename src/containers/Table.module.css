@@ -1,0 +1,16 @@
+.table {
+  width: 100%;
+  border-radius: 12px;
+  background: #f5f6fa;
+  box-shadow: 5px 5px 10px 0px #afb7b9;
+}
+.table th,
+.table td {
+  padding: 24px 0;
+  font: 18px 'Ubuntu', sans-serif;
+  color: #636e72;
+  text-align: center;
+}
+.table td p:first-child {
+  font-weight: 700;
+}

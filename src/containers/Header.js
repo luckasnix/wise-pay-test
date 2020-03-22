@@ -1,6 +1,7 @@
 import React from 'react'
 import Search from '../components/Search'
 import Badge from '../components/Badge'
+import { ReactComponent as OpenMenu } from '../media/open-menu.svg'
 import { ReactComponent as Bell } from '../media/bell.svg'
 import { ReactComponent as ShoppingCart } from '../media/shopping-cart.svg'
 import styles from './Header.module.css'
@@ -39,6 +40,12 @@ function Header({ className, id, style }) {
       id={id}
       style={style}
     >
+      <div className={styles.menu}>
+        <div>
+          <OpenMenu/>
+        </div>
+        <h1>Supplyr</h1>
+      </div>
       <Search/>
       <div className={styles.noticeBoard}>
         {badgeList.map(({ icon: Icon, notifications }, idx) => {

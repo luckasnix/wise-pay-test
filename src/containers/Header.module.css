@@ -9,6 +9,25 @@
   background: #f5f6fa;
   box-shadow: 5px 5px 10px 0px #afb7b9;
 }
+.menu {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 16px;
+}
+.menu div {
+  width: 32px;
+  height: 32px;
+  align-self: center;
+  cursor: pointer;
+}
+.menu div svg path {
+  fill: #2d3436;
+}
+.menu h1 {
+  align-self: center;
+  font: 36px 'Ubuntu', sans-serif;
+  color: #2d3436;
+}
 .noticeBoard {
   display: grid;
   grid-auto-flow: column;
